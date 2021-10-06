@@ -18,6 +18,6 @@ defmodule Rockelivery.Users.Update do
   defp handle_update({:ok, %User{}} = result), do: result
 
   defp handle_update({:error, result}) do
-    {:error, %{status: :bad_request, result: result}}
+    {:error, Error.build(:bad_request, result)}
   end
 end

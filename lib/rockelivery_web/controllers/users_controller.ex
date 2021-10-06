@@ -3,9 +3,9 @@ defmodule RockeliveryWeb.UsersController do
 
   alias Rockelivery.Repo
   alias Rockelivery.User
-  alias RockeliveryWeb.{FallbackController}
+  alias RockeliveryWeb.FallbackController
 
-#  action_fallback FallbackController
+  action_fallback FallbackController
 
   def index(conn,_params) do
     users = Repo.all(Rockelivery.User)
