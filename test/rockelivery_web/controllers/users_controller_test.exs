@@ -12,7 +12,7 @@ defmodule RockeliveryWeb.UsersControllerTest do
       params = %{
         "age" => 27,
         "address" => "Rua das bananeiras, 15",
-        "cep" => "12345678",
+        "cep" => "24420580",
         "cpf" => "12345678901",
         "email" => "rafael@banana.com",
         "password" => "123456",

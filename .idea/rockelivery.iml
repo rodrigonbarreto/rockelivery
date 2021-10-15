@@ -99,6 +99,9 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/tesla" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/hackney" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/certifi" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/tesla" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/bypass" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mox" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
